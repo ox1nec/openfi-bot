@@ -3,7 +3,7 @@ title Bot
     if exist requirements.txt (
 		echo installing wheel for faster installing
 		pip install wheel
-        echo Installing dependencies... 
+        echo Installing dependencies...
         pip install -r requirements.txt
         echo. > venv\Lib\site-packages\installed
     ) else (
